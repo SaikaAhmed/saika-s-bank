@@ -1,0 +1,41 @@
+body {
+    color: white;
+    padding: 100px;
+    font-family: 'Grenze Gotisch', cursive;
+    background-image: linear-gradient(250deg, black, firebrick);
+}
+body h1 {
+    font-size: 50px;
+}
+body h2, h3, h5 {
+    font-size: 30px;
+}
+
+/*submit area start*/
+.submit-area {
+    margin-top: 50px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px gold;
+    border-radius: 5px;
+}
+#transaction-area {
+    display: none;
+}
+.deposit {
+    background-color: slateblue;
+    box-shadow: 5px 5px 10px slateblue;
+}
+.withdraw {
+    background-color: lightsalmon;
+    box-shadow: 5px 5px 10px lightsalmon;
+}
+.balance {
+    background-color: orange;
+    box-shadow: 5px 5px 10px orange;
+}
+.style {
+    margin: 0px 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
